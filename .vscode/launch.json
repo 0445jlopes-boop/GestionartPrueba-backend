@@ -2,10 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ApiApplication",
+            "request": "launch",
+            "mainClass": "com.gestionart.api.ApiApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
         }
-
     ]
 }
